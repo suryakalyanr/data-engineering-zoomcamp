@@ -1,6 +1,7 @@
 variable "credentials" {
   description = "My Credentials"
-  default     = "C:\\Users\\Kalyan\\Downloads\\infra-actor-411318-f98fe656eb47.json"
+  #default     = "C:\\Users\\Kalyan\\Downloads\\infra-actor-411318-f98fe656eb47.json"
+  default     = "/home/kalyan/Downloads/infra-actor-411318-8150db4e9703.json"
   #ex: if you have a directory where this file is called keys with your service account json file
   #saved there as my-creds.json you could use default = "./keys/my-creds.json"
 }
